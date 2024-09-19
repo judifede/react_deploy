@@ -1,4 +1,5 @@
 #Configuración del proyecto
+
 1.Instala el paquete gh-pages como dependencia de desarrollo:
 ```
 npm install gh-pages --save-dev
