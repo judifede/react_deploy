@@ -1,4 +1,4 @@
-#Configuración del proyecto
+# Configuración del proyecto
 
 1.Instala el paquete gh-pages como dependencia de desarrollo:
 ```
@@ -13,7 +13,7 @@ export default defineConfig({
 })
 ```
 Reemplaza "nombre-de-tu-repositorio" con el nombre real de tu repositorio en GitHub
-#Modificación del package.json
+# Modificación del package.json
 3.Añade los siguientes scripts en tu package.json:
 ```
 "scripts": {
@@ -23,14 +23,14 @@ Reemplaza "nombre-de-tu-repositorio" con el nombre real de tu repositorio en Git
 ```
 Estos scripts automatizarán el proceso de build y deploy.
 
-#Despliegue
+# Despliegue
 Ejecuta el comando de deploy:
 ```
 npm run deploy
 ```
 Este comando construirá tu proyecto y lo publicará en la rama gh-pages de tu repositorio
 
-#Configuración final en GitHub
+# Configuración final en GitHub
 4.Ve a la configuración de tu repositorio en GitHub.
 5,En la sección "Pages", selecciona la rama "gh-pages" como fuente para GitHub Pages.
 6.Espera unos minutos y tu aplicación estará disponible en:
