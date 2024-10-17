@@ -12,7 +12,7 @@ export default defineConfig({
   base: '/nombre-de-tu-repositorio/'
 })
 ```
-Reemplaza "nombre-de-tu-repositorio" con el nombre real de tu repositorio en GitHub
+Reemplaza "nombre-de-tu-repositorio" con el nombre real de tu repositorio en GitHub.
 Para porfolio se recomienda que sea la raíz de tu perfil. Por lo que habría que poner base: '/'
 # Modificación del package.json
 3. Añade los siguientes scripts en tu package.json:
